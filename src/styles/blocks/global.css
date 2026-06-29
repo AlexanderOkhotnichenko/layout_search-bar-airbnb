@@ -1,0 +1,19 @@
+:root {
+  --background-white: #fff;
+  --gray-border: #e1e7ed;
+  --gray-color: #3d4e61;
+  --font-family: Avenir, sans-serif;
+  --shadow-form-default: rgba(61, 78, 97, 0.1);
+  --shadow-form-hover: rgba(0, 0, 0, 0.25);
+  --shadow-text: rgba(0, 0, 0, 0.25);
+}
+
+.page {
+  box-sizing: border-box;
+}
+
+.page,
+.page__body {
+  margin: 0;
+  padding: 0;
+}

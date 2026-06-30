@@ -70,22 +70,22 @@
   outline: none;
   padding: 0;
   color: var(--gray-color);
-  font-family: var(--font-family);
+  font-family: Avenir, sans-serif;
   font-weight: 300;
 }
 
 .search-bar__input--big {
-  line-height: 22px;
   font-size: 16px;
+  line-height: 22px;
 }
 
 .search-bar__input--small {
-  line-height: 20px;
   font-size: 14px;
+  line-height: 20px;
 }
 
 .search-bar__input::placeholder {
-  color: var(--gray-color);
+  color: inherit;
   font-weight: 300;
   text-shadow: none;
 }
